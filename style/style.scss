@@ -1,0 +1,21 @@
+// Only add responsiveness to the page title (your name)
+// @include media-breakpoint-only(xs) { ... }
+// @include media-breakpoint-only(sm) { ... }
+// @include media-breakpoint-only(md) { ... }
+// @include media-breakpoint-only(lg) { ... }
+// @include media-breakpoint-only(xl) { ... }
+
+#prototypevidthumb {
+  @include media-breakpoint-down(sm) {
+    width: 510px;
+  }
+}
+
+.display-3 {
+  @include media-breakpoint-only(xs) {
+    font-size: 48px;
+  }
+  @include media-breakpoint-only(sm) {
+    font-size: 60px;
+  }
+}
