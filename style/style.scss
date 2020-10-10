@@ -11,7 +11,7 @@
   }
 }
 
-.display-3 {
+.title {
   @include media-breakpoint-only(xs) {
     font-size: 48px;
   }
